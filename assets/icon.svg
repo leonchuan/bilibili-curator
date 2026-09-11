@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512" role="img" aria-label="bilibili-curator">
+  <title>bilibili-curator</title>
+  <rect width="256" height="256" rx="56" fill="#FB7299"/>
+  <g stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none">
+    <line x1="98" y1="90" x2="78" y2="60"/>
+    <line x1="158" y1="90" x2="178" y2="60"/>
+  </g>
+  <rect x="56" y="90" width="144" height="100" rx="18" fill="#FFFFFF"/>
+  <polygon points="128,105 137.11,130.46 164.14,131.26 142.74,147.79 150.34,173.74 128,158.5 105.66,173.74 113.26,147.79 91.86,131.26 118.89,130.46"
+           fill="#FB7299" stroke="#FB7299" stroke-width="10" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,30 @@
+# 运行时数据（含登录态，严禁提交/打包）
+.data/
+browser_profile/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 构建产物
+dist/
+*.zip
+
+# 编辑器 / 工具
+.idea/
+.vscode/
+*.swp
+
+# 其他
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp

@@ -1,0 +1,10 @@
+# bilibili-curator 运行时依赖
+#
+# 通常不需要手动安装 —— 运行 `python scripts/setup.py` 会自动创建
+# 独立虚拟环境并安装下列依赖。
+#
+# 手动安装（在 skill 目录下）：
+#   Windows:        .venv\Scripts\python -m pip install -r requirements.txt
+#   macOS / Linux:  .venv/bin/python -m pip install -r requirements.txt
+
+playwright>=1.40
