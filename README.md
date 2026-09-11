@@ -29,7 +29,7 @@
 ### 方式二：从本仓库手动安装
 
 ```bash
-git clone <本仓库地址>
+git clone https://github.com/leonchuan/bilibili-curator.git
 cd bilibili-curator
 python scripts/setup.py                # 标准安装
 python scripts/setup.py --mirror       # 国内网络（走镜像源）
@@ -79,13 +79,14 @@ bilibili-curator/
 ├── scripts/
 │   ├── _common.py               # 公共：路径、浏览器发现、登录态
 │   ├── setup.py                 # 环境初始化
-│   └── favorites.py             # 收藏夹管理（export/stats/clean/organize）
+│   └── favorites.py             # 收藏夹管理（export/stats/analyze/clean/organize）
 ├── references/
 │   ├── bilibili-api.md          # 接口细节与踩坑记录
 │   └── troubleshooting.md       # 常见问题排查
 └── assets/
     ├── organize-rules.json      # 收藏夹分类规则（可自定义）
-    └── icon.svg                 # 图标
+    ├── icon.svg                 # 图标（矢量源文件）
+    └── icon.png                 # 图标（512×512，平台头像上传用）
 ```
 
 运行时数据都在 `.data/`（浏览器登录态、导出文件、操作日志），可以随时删除重置。
